@@ -19,4 +19,4 @@ RUN apt-get update -y \
 
 COPY entrypoint.sh /root/entrypoint.sh
 
-CMD ["/bin/bash", "/root/entrypoint.sh"]
+CMD ["/bin/sh", "/root/entrypoint.sh"]
